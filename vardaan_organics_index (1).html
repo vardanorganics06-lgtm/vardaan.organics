@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vardaan Organics — Vermicompost | Vermiwash | Vermiculture</title>
+  <meta name="description" content="Pure, sustainable vermicompost, vermiwash and vermiculture solutions from Vardaan Organics. Organic farming support, bulk & retail supply, and consulting." />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+  <style>
+    :root{--accent:#2f8f4a;--dark:#0f1724;--muted:#6b7280;--card:#ffffff;--glass: rgba(255,255,255,0.06)}
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,Helvetica,Arial;line-height:1.5;margin:0;background:linear-gradient(180deg,#f7fff7 0%, #f1f7ef 100%);color:var(--dark)}
+    .container{max-width:1100px;margin:0 auto;padding:28px}
+
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:62px;height:62px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#6fcf6b);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:20px;box-shadow:0 6px 18px rgba(47,143,74,0.18)}
+    nav{display:flex;gap:14px;align-items:center}
+    nav a{color:var(--dark);text-decoration:none;font-weight:600}
+    .cta{background:var(--accent);color:white;padding:10px 16px;border-radius:10px;text-decoration:none;font-weight:700}
+
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;margin-top:28px}
+    .hero h1{margin:0;font-size:34px}
+    .lead{color:var(--muted);margin-top:10px}
+    .hero .buttons{margin-top:18px;display:flex;gap:12px}
+    .card{background:var(--card);border-radius:14px;padding:18px;box-shadow:0 6px 20px rgba(16,24,40,0.06)}
+
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:22px}
+    .feature h3{margin:8px 0 4px}
+    .feature p{color:var(--muted);margin:0}
+
+    .products{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:22px}
+    .product{display:flex;gap:14px;align-items:center}
+    .product img{width:120px;height:90px;border-radius:10px;object-fit:cover;background:linear-gradient(135deg,#e6f7ea,#f3fff6)}
+
+    section.about{margin-top:28px}
+    .two-col{display:grid;grid-template-columns:1fr 360px;gap:18px}
+
+    footer{margin-top:30px;padding:18px;border-radius:12px;background:linear-gradient(180deg,#ffffff,#f6fff6);display:flex;justify-content:space-between;align-items:center}
+
+    .contact-card{display:flex;flex-direction:column;gap:8px}
+    .contact-card a{color:var(--accent);font-weight:700;text-decoration:none}
+
+    /* Responsive */
+    @media (max-width:900px){
+      .hero{grid-template-columns:1fr;}
+      .two-col{grid-template-columns:1fr}
+      .features{grid-template-columns:1fr;}
+      .products{grid-template-columns:1fr}
+      nav{display:none}
+    }
+
+    /* small helpers */
+    .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:var(--glass);font-weight:700;color:var(--accent)}
+    .muted{color:var(--muted)}
+    .center{display:flex;align-items:center;justify-content:center}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo" style="padding:0">
+  <svg width="62" height="62" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="64" height="64" rx="14" fill="url(#grad1)"/>
+    <path d="M18 40 L30 20 L42 40" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="32" cy="26" r="4" fill="white" />
+    <defs>
+      <linearGradient id="grad1" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#2f8f4a"/>
+        <stop offset="1" stop-color="#6fcf6b"/>
+      </linearGradient>
+    </defs>
+  </svg>
+</div>
+        <div>
+          <div style="font-weight:800;font-size:18px">Vardaan Organics</div>
+          <div style="font-size:13px;color:var(--muted)">Pure Vermicompost & Vermiwash</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+        <a class="cta" href="#contact">Order Now</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <span class="pill">Organic • Sustainable • Local</span>
+          <h1>Natural vermicompost, vermiwash & vermiculture services for healthier soil</h1>
+          <p class="lead">Vardaan Organics produces nutrient-rich vermicompost and concentrated vermiwash to boost plant growth naturally. Bulk & retail supply, on-farm setup and consulting.</p>
+
+          <div class="buttons">
+            <a class="cta" href="#contact">Get a Quote</a>
+            <a href="#products" style="padding:10px 14px;border-radius:10px;background:transparent;border:1px solid var(--accent);text-decoration:none;font-weight:700">Our Products</a>
+          </div>
+
+          <div class="features">
+            <div class="card feature">
+              <div style="font-size:20px;font-weight:800">Vermicompost</div>
+              <h3>Rich organic fertilizer</h3>
+              <p>Humus-rich compost produced with Eisenia fetida worms — improves soil structure and fertility.</p>
+            </div>
+            <div class="card feature">
+              <div style="font-size:20px;font-weight:800">Vermiwash</div>
+              <h3>Liquid plant tonic</h3>
+              <p>Concentrated bio-active wash — foliar spray or soil drench to improve plant vigor and disease resistance.</p>
+            </div>
+            <div class="card feature">
+              <div style="font-size:20px;font-weight:800">Vermiculture</div>
+              <h3>On-site setup & training</h3>
+              <p>Set up worm beds, receive training and ongoing support for home gardens or farms.</p>
+            </div>
+          </div>
+        </div>
+
+        <aside class="card center">
+          <div style="text-align:center">
+            <img src="https://via.placeholder.com/360x240?text=Vermicompost" alt="Vermicompost" style="width:100%;border-radius:10px;margin-bottom:12px;">
+            <div style="font-weight:800;font-size:18px">Bulk & Retail</div>
+            <p class="muted">From 1 kg retail packs to 1-tonne farm deliveries — custom packing available.</p>
+            <div style="margin-top:12px;display:flex;gap:8px;justify-content:center">
+              <a class="cta" href="#contact">Order WhatsApp</a>
+              <a href="mailto:Vardaanorganics06@gmail.com" style="padding:8px 12px;border-radius:8px;background:transparent;border:1px solid #ddd;text-decoration:none">Email Us</a>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="products" class="products">
+        <div class="card product">
+          <img src="https://via.placeholder.com/400x300?text=Vermicompost+Product" alt="Vermicompost">
+          <div>
+            <h3 style="margin:0">Vermicompost</h3>
+            <p class="muted">100% organic vermicompost, tested for nutrient profile. Available in 40kg bags (standard) and custom bulk packing and bulk sacks.</p>
+            <ul class="muted" style="padding-left:18px;margin:8px 0">
+              <li>Improves soil aeration & water retention</li>
+              <li>Slow-release nutrients</li>
+              <li>Safe for vegetables, fruits, ornamental plants</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card product">
+          <img src="https://via.placeholder.com/400x300?text=Vermiwash+Product" alt="Vermiwash">
+          <div>
+            <h3 style="margin:0">Vermiwash</h3>
+            <p class="muted">Liquid nutrient concentrate rich in beneficial microbes and enzymes. Use as foliar spray or soil drench.</p>
+            <ul class="muted" style="padding-left:18px;margin:8px 0">
+              <li>Boosts plant immunity</li>
+              <li>Easy to dilute and apply</li>
+              <li>Available in 1 Litre, 5 Litres and 10 Litres containers</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Photo Gallery -->
+      <section class="card" style="margin-top:28px" id="gallery">
+        <h2>Photo Gallery</h2>
+        <p class="muted">A glimpse of our vermicompost production, vermiwash processing and farm activities.</p>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:14px">
+          <img src="https://via.placeholder.com/400x300?text=Vermicompost+Bed" style="width:100%;border-radius:10px;object-fit:cover" />
+          <img src="https://via.placeholder.com/400x300?text=Vermiwash+Collection" style="width:100%;border-radius:10px;object-fit:cover" />
+          <img src="https://via.placeholder.com/400x300?text=Organic+Farm" style="width:100%;border-radius:10px;object-fit:cover" />
+          <img src="https://via.placeholder.com/400x300?text=Worm+Culture" style="width:100%;border-radius:10px;object-fit:cover" />
+        </div>
+      </section>
+
+      <section id="about"" class="about">
+        <div class="two-col">
+          <div class="card">
+            <h2>About Vardaan Organics</h2>
+            <p class="muted">We are a small, family-run producer focused on sustainable farming solutions. We use low-input, high-yield processes to create high-quality vermicompost and vermiwash. Our approach is hands-on — from feedstock selection to quality testing.</p>
+
+            <h3 style="margin-top:14px">Why choose us?</h3>
+            <ul class="muted" style="padding-left:18px">
+              <li>Locally produced, traceable batches</li>
+              <li>Eco-friendly packaging</li>
+              <li>On-farm consultancy & follow-up</li>
+            </ul>
+          </div>
+
+          <div class="card contact-card" id="contact">
+            <h3>Contact & Orders</h3>
+            <div class="muted">WhatsApp / Phone</div>
+            <a href="https://wa.me/918958319756" target="_blank">+91 89583 19756</a>
+            <div class="muted">Email</div>
+            <a href="mailto:Vardaanorganics06@gmail.com">vardaan.organics@example.com</a>
+            <div class="muted">Address</div>
+            <div>Village- Jamalpur Mahipat, Post Sarkara Chakrajmal, Tehsil Dhampur, District Bijnor, U.P. — 246761</div>
+
+            <div style="margin-top:12px">
+              <a class="cta" href="https://wa.me/918958319756" target="_blank">Message on WhatsApp</a>
+            </div>
+
+            <div style="margin-top:12px;font-size:13px;color:var(--muted)">Open: Mon–Sat, 9:00 AM – 6:00 PM</div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div style="font-weight:700">Vardaan Organics</div>
+      <div class="muted">Made with care • © Vardaan Organics</div>
+    </footer>
+  </div>
+
+  <script>
+    // small JS: smoothly scroll to anchors and substitute WhatsApp number in header button
+    document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const id=a.getAttribute('href');if(id==='#')return;const el=document.querySelector(id);if(el)el.scrollIntoView({behavior:'smooth',block:'start'});}));
+    // Insert WA number into header Order WhatsApp button
+    document.querySelectorAll('a').forEach(a=>{if(a.textContent.includes('Order WhatsApp')||a.textContent.includes('Message on WhatsApp')){a.href='https://wa.me/918958319756';a.target='_blank'}})
+  </script>
+</body>
+</html>
